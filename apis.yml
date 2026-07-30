@@ -1,8 +1,28 @@
 aid: medeanalytics-jll-partners
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medeanalytics-jll-partners.png
 name: MedeAnalytics (JLL Partners)
-description: 'MedeAnalytics (JLL Partners) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'MedeAnalytics is a healthcare data and analytics company serving health
+  insurance payers and risk-bearing provider organizations, positioning itself as a
+  healthcare performance improvement company that turns claims, clinical, and operational
+  data into actionable insight and measurable financial and quality results. Its platform
+  spans Health Fabric, an AI-powered healthcare data fabric; AI Studio for ready-to-use
+  and custom predictive models; Managed Action for workflow automation; and Integrated
+  Analytics modules with embedded ROI tracking. Solution areas include MLR optimization,
+  HEDIS/Stars quality performance, utilization and network management, value-based care,
+  revenue cycle, population health, and social determinants of health (SDOH). The company
+  was surfaced from a VC portfolio and added to the API Evangelist network; it exposes
+  no public developer API, SDK, or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/medeanalytics-jll-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Ai Apps
+- Healthcare
+- Analytics
+- Health Insurance
+- Payers
+- Data Analytics
+- Population Health
+- Value-Based Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/medeanalytics-jll-partners-domain-security.yml
 - type: Website
   url: https://medeanalytics.com/
+- type: Blog
+  url: https://medeanalytics.com/insights/
+- type: Support
+  url: https://medeanalytics.com/contact/
+- type: TermsOfService
+  url: https://medeanalytics.com/terms/
+- type: PrivacyPolicy
+  url: https://medeanalytics.com/privacy-statement/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
