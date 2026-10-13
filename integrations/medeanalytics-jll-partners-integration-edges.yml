@@ -1,0 +1,23 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-k6hfypjgiuydu
+  listing_count: 3
+  apps:
+  - Health Fabric™ Data Activation Platform with Payer Analytics
+  - MedeAnalytics Value-Based Care Insights with AI-Enabled Next Best Action
+  - Health Fabric™ Data Activation with Revenue Cycle Management Insights
+  seller_name: MedeAnalytics
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
